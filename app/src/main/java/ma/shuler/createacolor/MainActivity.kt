@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.SeekBar
 import android.graphics.Color
 import android.view.View
+import androidx.annotation.ColorLong
 
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         buttonPickColor.setOnClickListener {
             showColorPickerDialog()
         }
+
     }
 
     private fun showColorPickerDialog() {

@@ -15,11 +15,18 @@
         android:padding="20dp"
         tools:ignore="MissingConstraints">
 
-        <EditText
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED" />
+
+    <EditText
             android:id="@+id/RR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="8"
+            android:maxLength="3"
             android:gravity="center"
             android:hint="0-255"
             android:inputType="number" />
@@ -28,13 +35,22 @@
             android:id="@+id/RED"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:progressTint="#FF0000"
+            android:scrollbarSize="100px"
             android:max="255" />
 
-        <EditText
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN" />
+
+    <EditText
             android:id="@+id/G"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="8"
+            android:maxLength="3"
             android:gravity="center"
             android:hint="0-255"
             android:inputType="number" />
@@ -43,13 +59,21 @@
             android:id="@+id/GREEBN"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:progressTint="#28E812"
             android:max="255" />
 
-        <EditText
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE" />
+
+    <EditText
             android:id="@+id/B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="8"
+            android:maxLength="3"
             android:gravity="center"
             android:hint="0-255"
             android:inputType="number" />
@@ -58,6 +82,7 @@
             android:id="@+id/BLUE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:progressTint="#0923CF"
             android:max="255" />
 
         <LinearLayout

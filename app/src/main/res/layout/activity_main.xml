@@ -24,7 +24,7 @@
                 android:id="@+id/colorbutton"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="PICK COLOR" />
+                android:text="ВЫБЕРИ ЦВЕТ" />
 
         </LinearLayout>
 
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="COLOR:"
+            android:text="Цвет:"
             android:textSize="24sp" />
 
         <LinearLayout
